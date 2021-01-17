@@ -1,6 +1,8 @@
-# Kocaeli Üniversitesi - Bilgisayar Mühendisliği
-## Mobil Programlama Proje
-## Cemre Can Kaya - 190201137
+## Kocaeli Üniversitesi - Bilgisayar Mühendisliği
+### Mobil Programlama Proje
+### Cemre Can Kaya - 190201137
+
+
 
 ## Humble 
 
@@ -34,4 +36,11 @@ Uygulama giriş, çıkış işlemleri ve veritabanından veri çekme işlemleri 
 ## Uygulamanın kullanımı
 
 Uygulama açılış ekranında kullanıcı giriş, kayıt işlemleri gerçekleştirilir.
+![](images/1.jpg)
+![](images/2.jpg)
+![](images/3.jpg)
+![](images/4.jpg)
+![](images/5.jpg)
+![](images/6.jpg)
+
 
