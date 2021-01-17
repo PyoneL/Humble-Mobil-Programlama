@@ -1,16 +1,18 @@
 ## Kocaeli Üniversitesi - Bilgisayar Mühendisliği
 ### Mobil Programlama Proje
-### Cemre Can Kaya - 190201137
+#### Cemre Can Kaya - 190201137
 
-
+<br/>
 
 ## Humble 
 
 Humble kullanıcıların resimlerini, tablolarını satışa sunabileceği bir platformdur.
 
 ## Kullanılan ekstra paketler
-[Ionic Data Storage](https://ionicframework.com/docs/angular/storage) 
+
+[Ionic Data Storage](https://ionicframework.com/docs/angular/storage) <br/>
 [Ionic Camera](https://ionicframework.com/docs/native/camera)
+
 ## Nasıl Çalıştırılır
 Github içerisinde bulunan dosya indirildikten sonra Komut satırında klasör içerisine ;
 
@@ -36,6 +38,7 @@ Uygulama giriş, çıkış işlemleri ve veritabanından veri çekme işlemleri 
 ## Uygulamanın kullanımı
 
 Uygulama açılış ekranında kullanıcı giriş, kayıt işlemleri gerçekleştirilir.
+<br/><br/>
 ![](images/1.jpg)
 ![](images/2.jpg)
 ![](images/3.jpg)
