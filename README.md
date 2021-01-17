@@ -47,6 +47,10 @@ Uygulama açılış ekranında kullanıcı giriş, kayıt işlemleri gerçekleş
 ![](images/1.jpg)
 ![](images/2.jpg)
 <br/><br/>
+Yan tarafta açılır menu bulunmaktadır tüm menülere buradan ulaşılır.
+<br/><br/>
+![](images/6.jpg)
+<br/><br/>
 Anasayfada kullanıcıların satışa sunduğu resimler görüntülenir, teklif yapılabilir.
 <br/><br/>
 ![](images/3.jpg)
@@ -63,8 +67,5 @@ Resim ekle butonuna tıklandığında resim ekleme sayfası açılır ve istenil
 <br/><br/>
 ![](images/7.jpg)
 <br/><br/>
-Yan tarafta açılır menu bulunmaktadır tüm menülere buradan ulaşılır.
-<br/><br/>
-![](images/6.jpg)
 
 
