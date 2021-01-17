@@ -1,20 +1,43 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+      <ion-title>Humble Müzayede</ion-title>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-icon name="refresh-outline" style="font-size: 14pt; margin-right: 20px;" (click)="ngOnInit()"></ion-icon>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
+<ion-content  >
+  <div *ngIf="!imageCheck" style="display: flex; width: 100%; height: 100%; justify-content: center; font-size: 20pt; color: rgb(224, 224, 224); align-items: center; background-color: rgb(54, 54, 54);">
+  <ion-text>Satışta resim bulunmamakta.</ion-text>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  </div>
+  <div class="container">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-card class="card" *ngFor="let image of images">
+      <ion-card-header>       
+        <ion-card-title>{{image.username}}</ion-card-title>
+      </ion-card-header>   
+      <ion-card-content>  
+        <img src={{image.source}}>
+        <ion-card-subtitle class="subtitle">Açıklama</ion-card-subtitle>
+        <ion-text>{{image.info}}</ion-text>
+      </ion-card-content>
+      <div class="offer">
+        <div style="display: flex; flex-direction: column;padding: 10px;">
+          <ion-text class="textStyle">Son teklif: {{image.price}} TL</ion-text>
+          <ion-text class="textStyle">Teklif yapan: {{image.offerName}}</ion-text>
+        </div>
+        <div style="display: flex; flex-direction: row;padding: 10px;">
+          <ion-input class="input" id="offer" type="number"  [(ngModel)]="offerPrice" ></ion-input>
+          <img src="../../assets/icon/tl.png" style="width: 30px; height: 44px;" >
+        </div>
+        <div class="buton"> 
+          <ion-button class="button" (click)="offer(image) " color="primary" >Teklif et</ion-button>
+        </div>
+      </div>
+    </ion-card>
   </div>
 </ion-content>

@@ -1,3 +1,29 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu (ionWillOpen)="update()" class="menu" side="start" menuId="main-menu" type="overlay" contentId="main">
+    <ion-content>
+      <div class="header">
+        <ion-icon style="margin-left: 10px;margin-top: 19px; font-size: 37pt; color: white;" name="person-circle-outline"></ion-icon>    
+        <ion-text class="headerText">{{username}}</ion-text>
+      </div>
+      <ion-list>
+        <ion-item (click)="hideMenu('home')">
+          <ion-icon class="menuIcon" name="easel-outline" slot="start"></ion-icon>
+          <ion-label class="menuText">Anasayfa</ion-label>
+        </ion-item>
+        <ion-item (click)="hideMenu('profile')">
+          <ion-icon class="menuIcon" name="person-outline" slot="start"></ion-icon>
+          <ion-label class="menuText">Profil</ion-label>
+        </ion-item>
+        <ion-item (click)="hideMenu('image')">
+          <ion-icon class="menuIcon" name="image-outline" slot="start"></ion-icon>
+          <ion-label class="menuText">Resimlerim</ion-label>
+        </ion-item>
+        <ion-item (click)="hideMenu('logout');">
+          <ion-icon class="menuIcon" name="exit-outline" slot="start"></ion-icon>
+          <ion-label class="menuText">Çıkış</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>

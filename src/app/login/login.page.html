@@ -1,0 +1,25 @@
+<ion-header>
+</ion-header>
+<ion-content class="container">
+  <div class="main">
+
+    <div style="height: 40%; padding: 15px;">
+      <img src="../../assets/icon/logo.png" alt="">
+    </div>
+
+    <div style="height: 60%;">
+
+      <ion-input class="input"  style="margin-top: 35px;" placeholder="Kullanıcı Adı" [(ngModel)]="username" ></ion-input>
+      <ion-input class="input"  style="margin-top: 15px;" type="password" id="input"  placeholder="Şifre" [(ngModel)]="password"></ion-input>
+  
+      <div class="div-button" style="margin-top: 5px;">
+        <ion-button (click)="login()" size="medium" style="display: flex; font-size: 13pt;">Login</ion-button>    
+      </div>
+
+      <div class="div-button">
+        <ion-button (click)="signin()" size="medium" style="display: flex; font-size: 13pt;" >Sign in</ion-button>
+      </div>
+
+    </div>
+  </div>
+</ion-content>

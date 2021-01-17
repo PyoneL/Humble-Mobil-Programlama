@@ -1,0 +1,26 @@
+.menu {
+    --width: 280px;
+}
+.header{
+    display: flex;
+    background-color: rgb(54,54, 54);
+    height: 90px;
+    width:  100%;
+    left: 0;
+    top: 0;
+}
+.headerText{
+    margin-top: 32px;
+    margin-left: 10px;
+    font-size: 20pt;
+    color:white;
+
+}
+.menuText{
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+}
+.menuIcon{
+    font-size: 23pt;
+}

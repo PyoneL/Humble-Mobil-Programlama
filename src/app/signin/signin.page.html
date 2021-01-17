@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="dark"> 
+    <ion-buttons>
+      <ion-button slot="start" routerLink="/login">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    <ion-title >Sign in</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container" >
+    <div class="main">
+      <ion-input [(ngModel)]="name" name="name" type="text" class="input"  placeholder="İsim"></ion-input>
+      <ion-input [(ngModel)]="surname" name="surname" style="margin-top: 15px;" type="text" class="input"  placeholder="Soyisim"></ion-input>
+      <ion-input [(ngModel)]="email" name="email" style="margin-top: 15px;" type="text" class="input" placeholder="E-Posta *"></ion-input>
+      <ion-input [(ngModel)]="username" name="username" style="margin-top: 15px;" type="text" class="input" placeholder="Kullanıcı Adı *"></ion-input>
+      <ion-input [(ngModel)]="password" name="password" style="margin-top: 15px;" type="password" class="input"  placeholder="Şifre *"></ion-input>
+      <ion-input [(ngModel)]="passwordCheck" name="passwordCheck" style="margin-top: 15px;" type="password" class="input"  placeholder="Şifre tekrar *"></ion-input>
+      
+      <div class="div-button">
+        <ion-button (click)="signin()" size="large" >Sign in</ion-button>
+      </div>
+      <div style="margin-top: 20px; font-size: 15pt;"> 
+        <ion-text>(*) : Doldurulması zorunlu alan.</ion-text>
+      </div>
+    </div>
+  </div>
+</ion-content>

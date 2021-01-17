@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>Resim Yükle</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()" >Çık</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content >
+  <div class="container">
+    <div class="guide">
+
+      <div class="imageGuide">
+
+          <img style="margin-bottom: 5px; min-width: 100%;min-height: 50%;"  src = {{imgScreen}}>
+
+        <ion-button (click)="imagePick()">Resim seç</ion-button>
+
+      </div>
+    
+      <div class="butonGuide">
+        <ion-input class="buton" id="input" type="text" placeholder="Resim adı" (keyup)="onKeyUserName($event)" (ngModel)="imgName" ></ion-input>
+        <ion-input class="buton" id="input" type="text" placeholder="Açıklama" (keyup)="onKeyUserInfo($event)" (ngModel)="imgInfo" ></ion-input>
+        <ion-button style="margin-top: 5px;" (click)="saveImage()" >Resmi kaydet</ion-button>
+      </div>
+    </div>
+  
+  
+  </div>
+</ion-content>
