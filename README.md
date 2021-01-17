@@ -15,21 +15,25 @@ Humble kullanıcıların resimlerini, tablolarını satışa sunabileceği bir p
 
 ## Nasıl Çalıştırılır
 Github içerisinde bulunan dosya indirildikten sonra Komut satırında klasör içerisine ;
+<br/>
 
     $  npm install
-komutu ile proje içerisinde tanımlanan gerekli tüm node_module paketleri yüklenir.
+<br/>komutu ile proje içerisinde tanımlanan gerekli tüm node_module paketleri yüklenir.
 
 
 ! Proje içerisinde galeriden resim seçme işlemi yapıldığı için Ionic Camera kütüphanesi kullanıldı ancak Camera kütüphanesi Browser tarafında desteklenmemekte. Bu sebeple uygulama Android Studio emulator açık iken ve ya android cihaz bilgisayara USB ile bağlı iken  ve geliştirici ayarlarından USB debugging seçeneği açık iken;
+<br/>
 
     $  ionic cordova run android
-
+<br/>
 komutu ile çalıştırılabilir.
 
 Dilenirse Browser üzerinde de çalıştırılabilir ancak resim seçme ve yükleme seçeneği çalışmayacaktır. Browser' da çalıştırmak için;
+<br/>
 
     $  ionic serve
 
+ <br/>
  
 ## Proje hakkında
  
@@ -38,12 +42,29 @@ Uygulama giriş, çıkış işlemleri ve veritabanından veri çekme işlemleri 
 ## Uygulamanın kullanımı
 
 Uygulama açılış ekranında kullanıcı giriş, kayıt işlemleri gerçekleştirilir.
+
 <br/><br/>
 ![](images/1.jpg)
 ![](images/2.jpg)
+<br/>
+Anasayfada kullanıcıların satışa sunduğu resimler görüntülenir, teklif yapılabilir.
+<br/>
 ![](images/3.jpg)
+<br/>
+Profil sayfasında kullanıcı bilgileri güncellenebilir.
+<br/>
 ![](images/4.jpg)
+<br/>
+Resimlerim sayfasında kullanıcının uygulamaya yüklediği resimler görüntülenir,
+<br/>
 ![](images/5.jpg)
+<br/>
+Resim ekle butonuna tıklandığında resim ekleme sayfası açılır ve istenilen resim galeride seçilip eklenebilir.
+<br/>
+![](images/7.jpg)
+<br/>
+Yan tarafta açılır menu bulunmaktadır tüm menülere buradan ulaşılır.
+<br/>
 ![](images/6.jpg)
 
 
