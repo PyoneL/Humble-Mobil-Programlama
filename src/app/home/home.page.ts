@@ -34,7 +34,6 @@ export class HomePage implements OnInit {
               price:this.offerPrice,
               offerName:this.userInfo.username,
           }
-          console.log("body:",body);      
           this.acsPrvdr.postJsonData(body,'images.php').subscribe((res:any)=>{
             if(res.success==true){ 
               this.homeToast(res.msg);   

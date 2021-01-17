@@ -61,7 +61,6 @@ export class ImagePage implements OnInit {
       this.imageToast("Resim zaten satılık değil.");
     }  
     else{
-      console.log(this.startValue);
       await this.storage.get('userInfo').then((res)=>{
         this.userInfo=res;
       });
@@ -71,7 +70,6 @@ export class ImagePage implements OnInit {
             id:this.userInfo.id,
             image_id:param.image_id,
         }
-        console.log(body);
         this.acsPrvdr.postJsonData(body,'images.php').subscribe((res:any)=>{
           if(res.success==true){
             this.imageToast(res.msg);
@@ -96,7 +94,6 @@ export class ImagePage implements OnInit {
             id:this.userInfo.id,
             image_id:param,
         }
-        console.log(body);
         this.acsPrvdr.postJsonData(body,'images.php').subscribe((res:any)=>{
           if(res.success==true){
             this.imageToast(res.msg);
@@ -127,7 +124,6 @@ export class ImagePage implements OnInit {
   }
 
   async ngOnInit() {
-    console.log("deneme");
     this.imageCheck=false;
     await this.storage.get('userInfo').then((res)=>{
       this.userInfo=res;
