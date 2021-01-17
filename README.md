@@ -61,7 +61,7 @@ Resimlerim sayfasında kullanıcının uygulamaya yüklediği resimler görünt�
 <br/><br/>
 Resim ekle butonuna tıklandığında resim ekleme sayfası açılır ve istenilen resim galeride seçilip eklenebilir.
 <br/><br/>
-![](images/7.jpeg)
+![](images/7.jpg)
 <br/><br/>
 Yan tarafta açılır menu bulunmaktadır tüm menülere buradan ulaşılır.
 <br/><br/>
