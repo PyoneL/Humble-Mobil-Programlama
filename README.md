@@ -14,14 +14,15 @@ Humble kullanıcıların resimlerini, tablolarını satışa sunabileceği bir p
 [Ionic Camera](https://ionicframework.com/docs/native/camera)
 
 ## Nasıl Çalıştırılır
-Github içerisinde bulunan dosya indirildikten sonra Komut satırında klasör içerisine ;
+
 <br/>
+
+Github içerisinde bulunan dosya indirildikten sonra Komut satırında klasör içerisine ;
 
     $  npm install
-<br/>
-komutu ile proje içerisinde tanımlanan gerekli tüm node_module paketleri yüklenir.
 
-<br/>
+komutu ile proje içerisinde tanımlanan gerekli tüm node_module paketleri yüklenir.
+<br/><br/>
 
 ! Proje içerisinde galeriden resim seçme işlemi yapıldığı için Ionic Camera kütüphanesi kullanıldı ancak Camera kütüphanesi Browser tarafında desteklenmemekte. 
 
@@ -36,11 +37,11 @@ Bu sebeple uygulama Android Studio emulator ve ya android cihaz ile çalıştır
 <br/>
 
 Diğer bir şekilde Android Studio emulator açık iken ve ya android cihaz USB debugging özelliği açık ve usb ile bilgisayara bağlı iken;
-<br/>
 
     $  ionic cordova run android
-<br/>
+
 komutu ile çalıştırılabilir.
+
 
 <br/>
 Dilenirse Browser üzerinde de çalıştırılabilir ancak resim seçme ve yükleme seçeneği çalışmayacaktır. Browser' da çalıştırmak için;
