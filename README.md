@@ -21,7 +21,16 @@ Github içerisinde bulunan dosya indirildikten sonra Komut satırında klasör i
 <br/>komutu ile proje içerisinde tanımlanan gerekli tüm node_module paketleri yüklenir.
 
 
-! Proje içerisinde galeriden resim seçme işlemi yapıldığı için Ionic Camera kütüphanesi kullanıldı ancak Camera kütüphanesi Browser tarafında desteklenmemekte. Bu sebeple uygulama Android Studio emulator açık iken ve ya android cihaz bilgisayara USB ile bağlı iken  ve geliştirici ayarlarından USB debugging seçeneği açık iken;
+! Proje içerisinde galeriden resim seçme işlemi yapıldığı için Ionic Camera kütüphanesi kullanıldı ancak Camera kütüphanesi Browser tarafında desteklenmemekte. 
+
+
+Bu sebeple uygulama Android Studio emulator ve ya android cihaz ile çalıştırılabilir. 
+<br/>
+>Minimum Android SDK sürümü (27.+)<br/>
+>Apk dosyası klasörü içerisinden kurulum yapılabilir.
+<br/>
+
+Diğer bir şekilde Android Studio emulator açık iken ve ya android cihaz USB debugging özelliği açık ve usb ile bilgisayara bağlı iken;
 <br/>
 
     $  ionic cordova run android
