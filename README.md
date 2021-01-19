@@ -18,12 +18,12 @@ Github içerisinde bulunan dosya indirildikten sonra Komut satırında klasör i
 <br/>
 
     $  npm install
-<br/>komutu ile proje içerisinde tanımlanan gerekli tüm node_module paketleri yüklenir.
+<br/>
+komutu ile proje içerisinde tanımlanan gerekli tüm node_module paketleri yüklenir.
 
-
+<br/>
 ! Proje içerisinde galeriden resim seçme işlemi yapıldığı için Ionic Camera kütüphanesi kullanıldı ancak Camera kütüphanesi Browser tarafında desteklenmemekte. 
-
-
+<br/>
 Bu sebeple uygulama Android Studio emulator ve ya android cihaz ile çalıştırılabilir. 
 <br/>
 >Minimum Android SDK sürümü (27.+)<br/>
@@ -36,13 +36,13 @@ Diğer bir şekilde Android Studio emulator açık iken ve ya android cihaz USB 
     $  ionic cordova run android
 <br/>
 komutu ile çalıştırılabilir.
-
+<br/>
 Dilenirse Browser üzerinde de çalıştırılabilir ancak resim seçme ve yükleme seçeneği çalışmayacaktır. Browser' da çalıştırmak için;
 <br/>
 
     $  ionic serve
 
- <br/>
+<br/>
  
 ## Proje hakkında
  
