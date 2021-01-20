@@ -53,7 +53,7 @@ Dilenirse Browser üzerinde de çalıştırılabilir ancak resim seçme ve yükl
  
 ## Proje hakkında
  
-Uygulama giriş, çıkış işlemleri ve veritabanından veri çekme işlemleri server tarafında yazılan php api ile gerçekleştirilir. Uygulama veritabanına, yazılan api üzerinden erişebilir.  
+Uygulama giriş, çıkış işlemleri ve veritabanından veri çekme işlemleri server tarafında yazılan Php API ile gerçekleştirilir. Uygulama veritabanına, yazılan API üzerinden erişebilir.  
 
 ## Uygulamanın kullanımı
 
@@ -67,7 +67,7 @@ Yan tarafta açılır menu bulunmaktadır tüm menülere buradan ulaşılır.
 <br/><br/>
 ![](images/6.jpg)
 <br/><br/>
-Anasayfada kullanıcıların satışa sunduğu resimler görüntülenir, teklif yapılabilir.
+Anasayfada kullanıcıların satışa sunduğu resimler görüntülenir, resimlere teklif yapılabilir.
 <br/><br/>
 ![](images/3.jpg)
 <br/><br/>
@@ -75,11 +75,11 @@ Profil sayfasında kullanıcı bilgileri güncellenebilir.
 <br/><br/>
 ![](images/4.jpg)
 <br/><br/>
-Resimlerim sayfasında kullanıcının uygulamaya yüklediği resimler görüntülenir,
+Resimlerim sayfasında kullanıcının uygulamaya yüklediği resimler görüntülenir, kullanıcı uygulamaya yüklediği resimlerini buradan başlangıç fiyatı ile birlikte satışa çıkarabilir, satıştan çekebilir ve ya resmini uygulamadan silebilir.
 <br/><br/>
 ![](images/5.jpg)
 <br/><br/>
-Resim ekle butonuna tıklandığında resim ekleme sayfası açılır ve istenilen resim galeride seçilip eklenebilir.
+Resimlerim sayfasında, Resim ekle butonuna tıklandığında resim ekleme sayfası açılır ve istenilen resim galeriden seçilip eklenebilir.
 <br/><br/>
 ![](images/7.jpg)
 <br/><br/>
